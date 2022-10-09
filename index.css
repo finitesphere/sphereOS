@@ -1,0 +1,106 @@
+body {
+	color: #000;
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+#log-post {
+    font-size: 20px;
+}
+
+#log-post-title {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+img {
+    width: auto;
+    height: 200px;
+}
+
+a {
+    color: #008080;
+}
+
+audio {
+    background: #000;
+}
+
+#page-title-header{
+	background-color: #cdcea0;
+	color: #ffffff;
+	font-size: 30px;
+	padding: 10px 10px 10px 10px;
+}
+
+#page-title-header a{
+    font-size: 50px;
+    text-align: center;
+}
+
+#page-title {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+#page-subtitle {
+    font-size:25px;
+}
+
+#page-about{
+    font-size: 20px;
+}
+
+#main {
+    margin: 0 0 0 200px;
+    max-width: 800px;
+    padding: 25px;
+}
+
+#nav {
+	overflow: hidden;
+	background-color: #999999;
+	padding: 9px;
+    font-size: 15px;
+}
+
+#nav a {
+	padding: 5px 5px;
+	color: #ffffff;
+}
+
+#nav a:hover {
+	background-color: #cdcea0;
+}
+
+#page-date {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    #page-title {
+        font-size: 20px;
+    }
+
+    #page-subtitle {
+        font-size: 15px;
+    }
+
+    #page-about {
+        font-size: 15px;
+    }
+
+    #main {
+        margin: 0 0 0 5px;
+    }
+
+    img {
+        width: 225px;
+        height: auto;
+    }
+
+    audio {
+        font-size: 250px;
+    }
+}
