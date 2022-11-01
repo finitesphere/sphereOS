@@ -28,10 +28,11 @@ audio {
 }
 
 #page-title-header{
-	background-color: #cdcea0;
+	background-color: #008080;
 	color: #ffffff;
 	font-size: 30px;
 	padding: 10px 10px 10px 10px;
+    text-align: center;
 }
 
 #page-title-header a{
@@ -42,6 +43,7 @@ audio {
 #page-title {
     font-size: 30px;
     padding-top: 10px;
+    text-decoration: underline;
 }
 
 #page-subtitle {
@@ -71,7 +73,7 @@ audio {
 }
 
 #nav a:hover {
-	background-color: #cdcea0;
+	background-color: #008080;
 }
 
 #page-date {
